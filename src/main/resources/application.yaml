@@ -1,0 +1,15 @@
+server:
+  port: 8085
+
+logging.folder: /home/mihail/IdeaProjects/virtecole/oasis
+logging.file: yamls.log
+spring:
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/oasis?useUnicode=true&characterEncoding=UTF-8
+    username: root
+    password: SM5b3n8j3j45SZEc
+  jpa:
+    hibernate.ddl-auto: update
+    generate-ddl: true
+    show-sql: true
